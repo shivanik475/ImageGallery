@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  height: 210px;
+  gap: 16px;
+  width: 210px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  text-align: center;
+  color: #007bff;
+}
